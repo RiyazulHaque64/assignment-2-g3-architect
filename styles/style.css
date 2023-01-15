@@ -172,11 +172,11 @@ header {
 }
 .features-enjoy-banner {
     width: 50%;
+    height: 100%;
 }
 .features-enjoy-banner img {
     width: 100%;
-    height: 900px;
-    object-fit: cover;
+    height: 850px;
 }
 .experience {
     position: absolute;
@@ -304,6 +304,7 @@ header {
     color: #424242;
     padding: 40px 80px;
     border-radius: 8px;
+    margin-bottom: 100px;
 }
 
 /* =============================
@@ -374,6 +375,9 @@ header {
     }
     .features-enjoy-banner {
         width: 100%;
+    }
+    .features-enjoy-banner img {
+        height: auto;
     }
     .experience {
         position: absolute;
