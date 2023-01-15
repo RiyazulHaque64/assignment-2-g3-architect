@@ -267,7 +267,7 @@ header {
 @media only screen and (max-width: 576px) {
     /* Utilities */
     .section-title {
-        font-size: 35px;
+        font-size: 30px;
     }
     /* Navbar */
     .logo {
@@ -322,11 +322,11 @@ header {
         position: absolute;
         left: 50%;
         transform: translate(-50%, 50%);
-        padding: 20px 30px;
+        padding: 15px 25px;
         
     }
     .experience h1 {
-        font-size: 28px;
+        font-size: 26px;
     }
     .experience h4 {
         font-size: 16px;
@@ -364,7 +364,7 @@ header {
 
     /* Footer */
     .footer {
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 400;
         color: #424242;
         padding: 30px 40px;
