@@ -315,6 +315,10 @@ header {
     .section-title {
         font-size: 30px;
     }
+    .primary-button {
+        font-size: 18px;
+        padding: 18px 20px;
+    }
     /* Navbar */
     .logo {
         font-size: 35px;
