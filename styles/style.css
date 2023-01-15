@@ -294,6 +294,9 @@ header {
     .header-content h1 {
         font-size: 30px;
     }
+    .header-content p {
+        width: 90%;
+    }
 
     /* Quick List of Features section */
     .features {
@@ -301,6 +304,9 @@ header {
     }
     .features-gallery {
         grid-template-columns: 1fr;
+    }
+    .features-content .section-title {
+        font-size: 30px;
     }
 
     /* Features enjoy section */
@@ -316,7 +322,10 @@ header {
         margin-right: 0px;
     }
     .features-enjoy-content .section-title {
-        margin: 0px 50px 0px 0px;
+        margin: 0px 10px 24px 0px;
+    }
+    .feature h3 {
+        font-size: 18px;
     }
     .features-enjoy-banner {
         width: 100%;
