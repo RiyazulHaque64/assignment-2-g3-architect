@@ -267,9 +267,7 @@ header {
 @media only screen and (max-width: 576px) {
     /* Utilities */
     .section-title {
-        font-size: 45px;
-        font-weight: 700;
-        color: var(--heading-color);
+        font-size: 35px;
     }
     /* Navbar */
     .logo {
@@ -294,7 +292,7 @@ header {
         padding: 100px 0px 40px 0px;
     }
     .header-content h1 {
-        font-size: 45px;
+        font-size: 35px;
     }
 
     /* Quick List of Features section */
@@ -321,17 +319,17 @@ header {
         width: 100%;
     }
     .experience {
-        position: static;
-        margin-top: 20px;
-        transform: translateX(33%);
-        padding: 30px 40px;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, 50%);
+        padding: 20px 30px;
         
     }
     .experience h1 {
-        font-size: 50px;
+        font-size: 28px;
     }
     .experience h4 {
-        font-size: 20px;
+        font-size: 16px;
     }
 
     /* Facts section */
